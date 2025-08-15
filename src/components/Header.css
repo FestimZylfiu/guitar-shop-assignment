@@ -1,0 +1,60 @@
+.header {
+  background: rgba(255, 255, 255, 0); 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+  padding: 2rem 0 0 8rem; 
+  margin: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.butterfly-icon {
+  color: #ff6b35;
+  font-size: 1.8rem;
+  margin-right: 0.5rem;
+}
+
+.logo-text {
+  color: black;
+  font-weight: 300;
+}
+
+.back-link {
+  color: #666;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+  margin-right: 800px;
+}
+
+.back-link:hover {
+  color: #ff6b35;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .logo-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
